@@ -1,5 +1,5 @@
 import unittest
-from lesson2_homehork import big_side
+from lesson2_homework import big_side
 
 class MyTestCase(unittest.TestCase):
     def test_big_side(self):
