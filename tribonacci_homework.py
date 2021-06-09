@@ -9,4 +9,5 @@ def trib(n, c=1, p=0, pp=0):
         return trib(n - 1, c + p + pp, c, p)
 
 
-print(trib(35))
+for i in range(trib(35)):
+    print(i)
